@@ -4,6 +4,7 @@ html{
     overscroll-behavior: none;
     --main:  #0C89BE;
     --mainFade:  #0C89BEcc;
+    --secondary: #59b5dd;
 }
 
 body{
@@ -92,9 +93,6 @@ main{
     border-radius: 50%;
     top: 100px;
     margin: 2rem;
-    /* border: solid .25rem var(--main); */
-    /* box-shadow: 0 0 .5rem var(--mainFade); */
-    
 }
 
 .aboutMe p{
@@ -213,3 +211,63 @@ footer{
     text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+    .navContainer{
+        flex-direction: column;
+    }
+
+    .nav{
+        background-color: var(--secondary);
+        padding: .5em 5em;
+        margin: .125em;
+        white-space: nowrap;
+    }
+
+    .aboutMe{
+        padding-top: 5em;
+    }
+
+    .aboutMe img{
+        display: none;
+    }
+
+    .aboutMe p{
+        /* border-bottom: solid 5px var(--main); */
+        border-left: none;
+    }
+
+    #projects{  
+        height: 1px;
+    }
+
+    .projects{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2{
+        border-right: none;
+        border-bottom: solid 5px var(--main);
+        margin-left: 0;
+        max-width: fit-content;
+        padding: 2rem 10rem;
+    }
+
+    .getInTouch{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .projects .flexContainer{
+        flex-direction: column;
+        margin: 1rem;
+        
+    }
+
+    .projects .flexItem{
+        min-width: 400px;
+    }
+}
