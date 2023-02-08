@@ -139,7 +139,7 @@ h2{
 .projects .flexItem{
     flex-basis: calc(50% - 1em);
     margin: .5em;
-    order: 2; 
+    order: 2;
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -148,6 +148,14 @@ h2{
 
 .projects .imgContainer{
     background-image: url(./images/carlos-muza-hpjSkU2UYSU-unsplash.jpg);
+    background-size: cover;
+    min-height: 6rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.projects .project1 .imgContainer{
+    background-image: url(./images/HungrybeatsScreenshot.png);
     background-size: cover;
     min-height: 6rem;
     display: flex;
@@ -236,7 +244,7 @@ footer{
         border-left: none;
     }
 
-    #projects{  
+    #projects{
         height: 1px;
     }
 
@@ -264,7 +272,7 @@ footer{
     .projects .flexContainer{
         flex-direction: column;
         margin: 1rem;
-        
+
     }
 
     .projects .flexItem{
