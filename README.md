@@ -1,6 +1,4 @@
-# week-2-challenge
-
-## Personal Portfolio
+# Personal Portfolio
 * About me section
 * Projects Section with the first project larger than the others
 * contact section with links to social
