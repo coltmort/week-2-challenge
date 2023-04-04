@@ -162,6 +162,14 @@ h2{
     align-items: flex-end;
 }
 
+.projects .project2 .imgContainer{
+    background-image: url(https://user-images.githubusercontent.com/108207472/228713163-88712c98-9123-4823-a41b-3d8bc562540c.gif);
+    background-size: cover;
+    min-height: 6rem;
+    display: flex;
+    align-items: flex-end;
+}
+
 .projects .imgContainer:hover{
     box-sizing: border-box;
     border: solid .4rem var(--main);
